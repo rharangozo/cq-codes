@@ -1,0 +1,7 @@
+Bundle-SymbolicName: rh.search
+Bundle-Activator: rh.search.impl.Activator
+Bundle-Version: 0.0.1-SNAPSHOT
+Private-Package: rh.search.impl.*
+Import-Package: org.apache.felix.webconsole, !org.apache.log4j.jmx,*
+Export-Package: rh.search
+Bundle-Name: Search

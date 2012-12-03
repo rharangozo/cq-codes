@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    autoScroll="true"
+    stateful="false"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <text-display
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Label of the textbox"
+            fieldLabel="Label"
+            name="./label"
+            xtype="textfield"/>
+        <property-path
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Path of the property to be indexed"
+            fieldLabel="Property path"
+            name="./propertyPath"
+            xtype="textfield"/>
+        <filter-id
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Filter id"
+            fieldLabel="Filter id"
+            name="./filterId"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

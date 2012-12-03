@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    autoScroll="true"
+    stateful="false"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <target
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Path to the list node"
+            fieldLabel="Target"
+            name="./target"
+            xtype="pathfield"/>
+        <search-id
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Search id"
+            fieldLabel="Unique search id"
+            name="./search-id"
+            xtype="textfield"/>
+    </items>
+</jcr:root>
