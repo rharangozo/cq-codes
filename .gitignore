@@ -1,1 +1,4 @@
 *.vlt
+*.iml
+.idea
+target
